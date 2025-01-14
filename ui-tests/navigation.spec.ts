@@ -6,4 +6,9 @@ test.describe("Verify navigation", () => {
         const pagination = new NavigationPage(page)
         await pagination.verifyPagination()
     })
+
+    test("Visual regression",async({page}) =>{
+        const pagination = new NavigationPage(page)
+        await pagination.verifyScreenShot(page)
+    })
 })
