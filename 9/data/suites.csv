@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jan 14 10:39:36 GMT 2025","Tue Jan 14 10:39:37 GMT 2025","1467","firefox","ui-tests/form.spec.ts","Verify the form","","","Fill the form",""
+"passed","Tue Jan 14 10:39:41 GMT 2025","Tue Jan 14 10:39:41 GMT 2025","292","api-tests","api-tests/get-user.spec.ts","APIs for users","","","create a user",""
+"passed","Tue Jan 14 10:39:35 GMT 2025","Tue Jan 14 10:39:35 GMT 2025","301","chromium","ui-tests/navigation.spec.ts","Verify navigation","","","Check pagination",""
+"passed","Tue Jan 14 10:39:41 GMT 2025","Tue Jan 14 10:39:41 GMT 2025","136","api-tests","api-tests/get-user.spec.ts","APIs for users","","","list users on the second page",""
+"passed","Tue Jan 14 10:39:34 GMT 2025","Tue Jan 14 10:39:35 GMT 2025","579","chromium","ui-tests/form.spec.ts","Verify the form","","","Fill the form",""
+"passed","Tue Jan 14 10:39:38 GMT 2025","Tue Jan 14 10:39:38 GMT 2025","791","firefox","ui-tests/navigation.spec.ts","Verify navigation","","","Check pagination",""
