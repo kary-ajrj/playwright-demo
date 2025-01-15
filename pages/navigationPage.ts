@@ -19,10 +19,4 @@ export class NavigationPage extends BasePage{
         await this.Next.click()
         await expect(this.Page2Text).toBeVisible()
     }
-    async verifyScreenShot(page){
-        await this.clickNavigationButton()
-        await this.PageOneText.isVisible()
-        await expect(page).toHaveScreenshot();
-
-    }
 }
