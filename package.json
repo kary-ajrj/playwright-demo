@@ -7,7 +7,10 @@
     "@playwright/test": "^1.49.1",
     "@types/node": "^22.10.2",
     "allure-js-commons": "^3.0.8",
-    "allure-playwright": "^3.0.8"
+    "allure-playwright": "^3.0.8",
+    "prettier": "^3.4.2"
   },
-  "scripts": {}
+  "scripts": {
+    "prettify": "prettier --config \".prettierrc\" --write \"./**/*.{ts,tsx,js,jsx,json,yaml,yml,eslintrc,md}\" "
+  }
 }
