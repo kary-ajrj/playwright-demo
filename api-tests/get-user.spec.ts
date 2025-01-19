@@ -21,6 +21,6 @@ test.describe('APIs for users', () => {
       },
     });
     expect(user.ok()).toBeTruthy();
-    await expect(await user.json()).toHaveProperty('createdAt');
+    expect(await user.json()).toHaveProperty('createdAt');
   });
 });
