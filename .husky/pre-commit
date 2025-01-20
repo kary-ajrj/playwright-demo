@@ -1,3 +1,4 @@
 #!/usr/bin/env sh
 
+talisman --githook pre-commit
 yarn lint-staged
