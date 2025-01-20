@@ -20,6 +20,6 @@
   },
   "scripts": {
     "prettify": "prettier --config \".prettierrc\" --write \"./**/*.{ts,tsx,js,jsx,json,yaml,yml,md}\" ",
-    "lint": "eslint"
+    "postinstall": "husky"
   }
 }
